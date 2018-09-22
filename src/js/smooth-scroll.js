@@ -312,6 +312,7 @@
 	 * @param {Boolean}  isNum       If true, scroll is to a position rather than an element
 	 */
 	var adjustFocus = function (anchor, endLocation, isNum) {
+		return; // не нужен на проекте и не отключается из конфига, увы.
 
 		// Is scrolling to top of page, blur
 		if (anchor === 0) {
